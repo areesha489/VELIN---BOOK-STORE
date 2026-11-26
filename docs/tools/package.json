@@ -1,0 +1,14 @@
+{
+  "name": "velin-docs-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "walkthrough": "node walkthrough.mjs",
+    "docx": "node build-docx.mjs"
+  },
+  "dependencies": {
+    "docx": "^9.16.0",
+    "playwright": "^1.65.1"
+  }
+}
